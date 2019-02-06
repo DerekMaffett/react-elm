@@ -1,0 +1,38 @@
+{
+    "name": "react-elm",
+    "version": "1.0.0",
+    "description": "Easy integration between React/Redux and Elm",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack --watch",
+        "build": "webpack --mode production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@bitbucket.org/DerekMaffett/react-elm.git"
+    },
+    "author": "",
+    "license": "",
+    "homepage": "https://bitbucket.org/DerekMaffett/react-elm#readme",
+    "peerDependencies": {
+        "react": "^16.2.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.1.2",
+        "@babel/core": "^7.1.2",
+        "@babel/plugin-proposal-class-properties": "^7.1.0",
+        "@babel/preset-env": "^7.1.0",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.4",
+        "css-loader": "^1.0.0",
+        "source-map-loader": "^0.2.4",
+        "style-loader": "^0.23.1",
+        "webpack": "^4.20.2",
+        "webpack-cli": "^3.1.2"
+    },
+    "dependencies": {
+        "prop-types": "^15.6.2",
+        "react": "16.4.2"
+    }
+}
