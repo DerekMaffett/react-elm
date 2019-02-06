@@ -12,8 +12,8 @@
         "type": "git",
         "url": "git+ssh://git@bitbucket.org/DerekMaffett/react-elm.git"
     },
-    "author": "",
-    "license": "",
+    "author": "Derek Maffett",
+    "license": "MIT",
     "homepage": "https://bitbucket.org/DerekMaffett/react-elm#readme",
     "peerDependencies": {
         "react": "^16.2.0"
